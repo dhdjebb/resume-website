@@ -1,0 +1,46 @@
+/* Basic reset and typography */
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin:0; color:#222; background:#ffffff; line-height:1.6; }
+a { color: #0b1b40; text-decoration: none; }
+.site-header { display:flex; justify-content:space-between; align-items:center; padding:18px 28px; background:#0b1b40; color:white; position:sticky; top:0; z-index:1000; }
+.brand h1 { margin:0; font-size:20px; letter-spacing:0.6px; }
+.brand .tagline { margin:0; font-size:12px; opacity:0.9; }
+
+/* Navigation */
+.main-nav a { margin-left:18px; color:white; font-weight:600; }
+.main-nav a.active { text-decoration:underline; }
+
+/* Hero */
+.hero { display:flex; align-items:center; justify-content:center; text-align:center; padding:60px 20px; background:#f4f7fb; }
+.hero-img { max-width:800px; width:100%; height:auto; display:block; margin:0 auto 20px; }
+.hero-content h2 { margin:6px 0; font-size:28px; }
+.hero-content p { max-width:720px; margin: 0 auto 18px; }
+
+/* Buttons */
+.btn { display:inline-block; background:#0b1b40; color:white; padding:10px 16px; border-radius:6px; }
+
+/* Features */
+.features { display:flex; justify-content:space-around; gap:20px; padding:30px 20px; max-width:1000px; margin:0 auto; }
+.feature { flex:1; text-align:center; padding:12px; }
+
+/* About and resume pages */
+.about-page { display:flex; gap:30px; padding:40px 20px; max-width:1000px; margin:0 auto; align-items:flex-start; }
+.profile img { max-width:220px; border-radius:8px; display:block; }
+.about-text { flex:1; }
+
+.resume-page { padding:30px 20px; max-width:900px; margin:0 auto; }
+.resume-section { margin-bottom:22px; }
+
+/* Footer */
+.site-footer { text-align:center; padding:16px; background:#0b1b40; color:white; margin-top:40px; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .features { flex-direction:column; }
+  .about-page { flex-direction:column; align-items:center; }
+}
+@media (max-width: 480px) {
+  .brand h1 { font-size:18px; }
+  .hero-content h2 { font-size:22px; }
+  .main-nav { margin-top:8px; }
+}

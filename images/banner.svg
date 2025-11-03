@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b1b40"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#g)"/>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="130" font-size="40" font-weight="700">Your Name</text>
+    <text x="60" y="180" font-size="22">Web Designer · Front-end Developer · Problem Solver</text>
+  </g>
+</svg>
